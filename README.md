@@ -4,7 +4,7 @@ Personal Portfolio website. Team project.
 
 ## Preview
 
-See the final product: Link to come later
+See the final product: Link will come later
 
 ## About the project
 
