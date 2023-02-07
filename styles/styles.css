@@ -23,8 +23,8 @@
 }
 
 :root {
-    --color-bg: #ecfeff;
-    --color-bg-variant: #cffafe;
+    --color-bg: #fff;
+    --color-bg-variant: #0891b2;
     --color-primary: #06b6d4;
     --color-primary-variant: #0891b2;
     --color-dark: black;
@@ -32,6 +32,7 @@
 
     --transition: all 400ms ease;
 
+    --container-width-xxl: 60%;
     --container-width-large: 75%;
     --container-width-medium: 85%;
     --container-width-small: 90%;
@@ -96,6 +97,13 @@ button:hover {
   background: var(--color-dark-variation);
   color: var(--color-bg);
   border-color: transparent;
+}
+
+/* Media Queries (XXL Devices) */
+@media screen and (max-width: 2048px) {
+  .container {
+    width: var(--container-width-xxl);
+  }
 }
 
 /* Media Queries (Medium Devices) */
