@@ -4,7 +4,7 @@ Personal Portfolio website. Team project.
 
 ## Preview
 
-See the final product: Link will come later
+See the final product: https://snuggletrouble.github.io/brainnest-personal-portfolio/
 
 ## About the project
 
