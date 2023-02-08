@@ -14,6 +14,7 @@
 }
 
 * {
+    /* border: 1px solid red; */
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -25,7 +26,7 @@
 :root {
     --color-bg: #fff;
     --color-bg-variant: #0891b2;
-    --color-primary: #06b6d4;
+    --color-primary: rgb(8, 145, 178);
     --color-primary-variant: #189cbd;
     --color-dark: #000;
     --color-dark-variation: #585858;
@@ -97,6 +98,60 @@ button:hover {
   background: var(--color-dark-variation);
   color: var(--color-bg);
   border-color: transparent;
+}
+#about {
+  overflow: hidden;
+}
+.about-container {
+  display: flex;
+  background: var(--color-primary);
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+  transform: skew(0deg, -10deg) translateY(-8rem);
+}
+.about-content {
+  display: flex;
+  padding: 0;
+  position: relative;
+  max-width: 90%;
+  transform: skew(0deg, 10deg) translateY(8rem);
+  text-align: center;
+}
+.about-content>img {
+  width: 35%;
+  height: auto;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+}
+.about-content>h1 {
+  position: absolute;
+  width: 35%;
+  z-index: 10;
+  bottom: 0px;
+  color: var(--color-bg)
+}
+.about-content>article {
+  margin: 2rem 2rem 2rem 0;
+  background-color: var(--color-bg);
+  text-align: left;
+  padding: 2rem 1rem 1rem 1rem;
+  box-shadow: 7px 8px 25px 2px rgba(0,0,0,0.3);
+}
+.about-content>article>p {
+  padding: 1rem 1rem 1rem 0rem;
+}
+.about-content>article>.icons {
+  position: absolute;
+  bottom: 10%;
+  right: 3rem;
+}
+.about-content>article>.icons>* {
+  margin-left: 1rem;
+  font-size: 1.3rem;
+
 }
 
 /* Media Queries (XXL Devices) */
