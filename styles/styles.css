@@ -83,6 +83,15 @@ a:hover {
   color: var(--color-dark-variation);
 }
 
+.icon-link {
+  color: var(--color-dark);
+  transition: var(--transition);
+}
+
+.icon-link:hover {
+  color: var(--color-primary-variant);
+}
+
 button {
   width: max-content;
   display: inline-block;
@@ -147,11 +156,12 @@ button:hover {
   position: absolute;
   bottom: 10%;
   right: 3rem;
+  color: var(--color-dark);
+  transition: var(--transition);
 }
 .about-content>article>.icons>* {
   margin-left: 1rem;
   font-size: 1.3rem;
-
 }
 
 /* Media Queries (XXL Devices) */
