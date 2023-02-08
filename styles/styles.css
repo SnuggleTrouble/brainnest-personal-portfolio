@@ -1,16 +1,16 @@
 @font-face {
   font-family: "Roboto";
-  src: url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+  src: url("../assets/fonts/Roboto/Roboto-Regular.ttf") format("truetype");
   font-weight: normal;
 }
 @font-face {
   font-family: "Roboto";
-  src: url("../fonts/Roboto/Roboto-Bold.ttf") format("truetype");
+  src: url("../assets/fonts/Roboto/Roboto-Bold.ttf") format("truetype");
   font-weight: bold;
 }
 @font-face {
   font-family: "Roboto italic";
-  src: url("../fonts/Roboto/Roboto-LightItalic.ttf") format("truetype");
+  src: url("../assets/fonts/Roboto/Roboto-LightItalic.ttf") format("truetype");
 }
 
 * {
@@ -152,6 +152,23 @@ button:hover {
   margin-left: 1rem;
   font-size: 1.3rem;
 
+}
+
+.work-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 250px);
+}
+
+.project {
+  border: 1px solid red;
+}
+
+.project>img {
+  width: 200px;
+}
+
+.project>aside>a>img {
+  width: 30px;
 }
 
 /* Media Queries (XXL Devices) */
