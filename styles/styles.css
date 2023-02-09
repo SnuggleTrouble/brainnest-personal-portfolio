@@ -250,6 +250,66 @@ button:hover {
   -webkit-box-orient: vertical;
 }
 
+#contact {
+  max-height: 80vh;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--color-primary);
+}
+
+.contact-container {
+  margin: 2%;
+  height: 90%;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.contact-info {
+  height: 100%;
+  width: 50%;
+  padding: 2%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  color: white;
+  justify-content: center;
+  flex: 1;
+  font-size: 0.8vw;
+}
+
+.contact-info > p {
+  margin-top: 5%;
+}
+
+.contact-address {
+  margin-top: 0%;
+}
+
+.contact-image {
+  height: 100%;
+  width: 50%;
+  padding: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.contact-image img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+
+
 /* Media Queries (XXL Devices) */
 @media screen and (min-width: 2048px) {
   .container {
@@ -259,13 +319,72 @@ button:hover {
   .work-container {
     grid-template-columns: repeat(3, 1fr);
   }
+
+  #contact {
+    max-height: 80vh;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-primary);
+  }
+
+  .contact-container {
+    margin: 2%;
+    height: 90%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .contact-info {
+    height: 100%;
+    width: 50%;
+    padding: 2%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: white;
+    justify-content: center;
+    flex: 1;
+    font-size: 0.8vw;
+  }
+
+  .contact-info > p {
+    margin-top: 5%;
+  }
+
+  .contact-address {
+    margin-top: 0%;
+  }
+
+  .contact-image {
+    height: 100%;
+    width: 50%;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+  }
+
+  .contact-image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+
 }
 
 /* Media Queries (Medium Devices) */
 @media screen and (max-width: 1024px) {
-  .container {
-    width: var(--container-width-medium);
-  }
+.container {
+  width: var(--container-width-medium);
+}
 
   section {
     margin-top: 6rem;
@@ -308,6 +427,64 @@ button:hover {
   .work-container {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  #contact {
+    max-height: 80vh;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-primary);
+  }
+
+  .contact-container {
+    margin: 2%;
+    height: 90%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .contact-info {
+    height: 100%;
+    width: 50%;
+    padding: 2%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: white;
+    justify-content: center;
+    flex: 1;
+    font-size: 0.8vw;
+  }
+
+  .contact-info > p {
+    margin-top: 5%;
+  }
+
+  .contact-address {
+    margin-top: 0%;
+  }
+
+  .contact-image {
+    height: 100%;
+    width: 50%;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+  }
+
+  .contact-image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
 }
 
 /* Media Queries (Small Devices) */
@@ -343,4 +520,64 @@ button:hover {
     grid-template-columns: 1fr;
     justify-content: center ;
   }
+
+  #contact {
+    max-height: 80vh;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-primary);
+  }
+
+  .contact-container {
+    margin: 2%;
+    height: 90%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .contact-info {
+    height: 100%;
+    width: 50%;
+    padding: 2%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: white;
+    justify-content: center;
+    flex: 1;
+    font-size: 0.8vw;
+  }
+
+  .contact-info > p {
+    margin-top: 5%;
+  }
+
+  .contact-address {
+    margin-top: 0%;
+  }
+
+  .contact-image {
+    height: 100%;
+    width: 50%;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+  }
+
+  .contact-image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+
 }
