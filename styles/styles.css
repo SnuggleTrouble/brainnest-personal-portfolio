@@ -124,8 +124,10 @@ button:hover {
 .about-content {
   display: flex;
   position: relative;
+  align-items: center;
+  height: 80%;
   margin: 2rem 0;
-  max-width: var(--container-width-large);
+  max-width: 90%;
   transform: skew(0deg, 10deg) translateY(11rem);
   text-align: center;
 }
@@ -141,13 +143,15 @@ button:hover {
   position: absolute;
   width: 35%;
   z-index: 10;
-  bottom: 0px;
+  bottom: -5%;
   color: var(--color-bg)
 }
 .about-content>article {
-  margin: 2rem 0 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background-color: var(--color-bg);
-  height: 100%;
+  min-height: 80%;
   text-align: left;
   padding: 2rem 1rem 1rem 1rem;
   box-shadow: 7px 8px 25px 2px rgba(0,0,0,0.3);
@@ -156,9 +160,7 @@ button:hover {
   padding: 1rem 1rem 1rem 0rem;
 }
 .about-content>article>.icons {
-  position: relative;
-  bottom: 10%;
-  right: 0;
+  align-self: flex-end;
   text-align: right;
   color: var(--color-dark);
   transition: var(--transition);
@@ -202,7 +204,7 @@ button:hover {
     position: relative;
     text-align: center;
     width: 100%;
-    top: 2rem;
+    top: 1rem;
     left: -4rem;
     text-align: left;
   }
@@ -210,6 +212,7 @@ button:hover {
   .about-content>article {
     max-width: 90%;
     margin-left: 2rem;
+    display: block;
   }
   .about-content>article>h2 {
     text-align: center;
