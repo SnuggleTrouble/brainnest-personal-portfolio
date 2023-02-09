@@ -212,6 +212,15 @@ button:hover {
   margin-top: 0%;
 }
 
+.contact-logo {
+  display: flex;
+  font-size: calc(7px + 0.6vw);
+}
+
+.contact-logo > a {
+  margin-right: 3%;
+}
+
 .contact-image {
   height: 100%;
   width: 50%;
@@ -267,7 +276,7 @@ button:hover {
     color: white;
     justify-content: center;
     flex: 1;
-    font-size: 0.8vw;
+    font-size: calc(7px + 0.3vw);
   }
   
   .contact-info > p {
@@ -276,6 +285,10 @@ button:hover {
   
   .contact-address {
     margin-top: 0%;
+  }
+  
+  .contact-logo {
+    display: flex;
   }
   
   .contact-image {
@@ -372,7 +385,7 @@ button:hover {
     color: white;
     justify-content: center;
     flex: 1;
-    font-size: 0.8vw;
+    font-size: calc(7px + 0.3vw);
   }
   
   .contact-info > p {
@@ -461,11 +474,12 @@ button:hover {
     color: white;
     justify-content: center;
     flex: 1;
-    font-size: 0.8vw;
+    font-size: calc(8px + 0.3vw);
   }
   
   .contact-info > p {
     margin-top: 5%;
+    
   } 
   
   .contact-address {
