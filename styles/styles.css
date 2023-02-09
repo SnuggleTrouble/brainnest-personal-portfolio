@@ -158,6 +158,8 @@ button:hover {
 }
 .about-content>article>p {
   padding: 1rem 1rem 1rem 0rem;
+  text-align: justify;
+  text-justify: inter-word;
 }
 .about-content>article>.icons {
   align-self: flex-end;
@@ -170,9 +172,22 @@ button:hover {
   font-size: 1.3rem;
 }
 
+#work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#work>h2 {
+  width: 90%;
+}
+
 .work-container {
+  width: 90%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, 250px);
+  gap: 5vh 5%;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
 }
 
 .project {
@@ -191,6 +206,10 @@ button:hover {
 @media screen and (min-width: 2048px) {
   .container {
     width: var(--container-width-xxl);
+  }
+
+  .work-container {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -215,6 +234,7 @@ button:hover {
 
   .about-content>img {
     margin-right: 1rem;
+    margin-left: -1.2rem;
     width: 40%;
   }
   .about-content>h1 {
@@ -227,8 +247,6 @@ button:hover {
   }
 
   .about-content>article {
-    max-width: 90%;
-    margin-left: 2rem;
     display: block;
   }
   .about-content>article>h2 {
@@ -237,6 +255,10 @@ button:hover {
 
   .about-content>article>.icons{
     display: none;
+  }
+
+  .work-container {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -267,5 +289,10 @@ button:hover {
   .about-content>article>.icons {
     display: flex;
     justify-content: center;
+  }
+
+  .work-container {
+    grid-template-columns: 1fr;
+    justify-content: center ;
   }
 }
