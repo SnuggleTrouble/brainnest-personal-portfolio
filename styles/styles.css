@@ -71,7 +71,7 @@ h1 {
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 22px;
 }
 
 section {
@@ -223,6 +223,7 @@ button:hover {
 .project>div+div>div {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .project>div+div>div>aside {
@@ -231,9 +232,8 @@ button:hover {
   justify-content: space-between;
 }
 
-.project>div+div>div>aside>a {
-  height: 30px;
-  width: 30px;
+.project>div+div>div>aside>a>i {
+  font-size: 28px;
 }
 
 .project>div+div>div+p {
