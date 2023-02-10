@@ -75,12 +75,18 @@ h2 {
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: calc(1vw + 0.5rem);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
 }
 
 span,
 p {
-  font-size: 1.2rem;
+  font-size: calc(0.7vw + 0.5rem);
 }
 
 section {
@@ -217,6 +223,7 @@ button:hover {
 .project {
   aspect-ratio: 3 / 4;
   box-shadow: 2px 4px 5px 2px rgb(58 58 58 / 30%);
+  overflow: hidden;
 }
 
 .project > div:first-child {
@@ -371,11 +378,6 @@ button:hover {
     width: var(--container-width-medium);
   }
 
-  span,
-  p {
-    font-size: 1rem;
-  }
-
   section {
     margin-top: 6rem;
   }
@@ -450,11 +452,6 @@ button:hover {
     width: var(--container-width-small);
   }
 
-  span,
-  p {
-    font-size: 0.9rem;
-  }
-
   .about-container {
     width: 100%;
   }
@@ -524,12 +521,5 @@ button:hover {
     height: auto;
     width: 100%;
     padding: 0;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  span,
-  p {
-    font-size: 0.8rem;
   }
 }
