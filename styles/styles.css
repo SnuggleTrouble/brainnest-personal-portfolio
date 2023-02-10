@@ -202,7 +202,6 @@ button:hover {
 .project {
   aspect-ratio: 3 / 4;
   box-shadow: 2px 4px 5px 2px rgb(58 58 58 / 30%);
-  /* overflow: hidden; */
 }
 
 .project>div:first-child {
@@ -255,9 +254,11 @@ button:hover {
   -webkit-box-orient: vertical;
 }
 
+
 #contact {
   max-height: 80vh;
-  width: 100%;
+  width: 80%;
+  margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -265,17 +266,19 @@ button:hover {
 }
 
 .contact-container {
-  margin: 2% 0;
+  margin: 2%;
   height: 90%;
   width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .contact-info {
   height: 100%;
   width: 50%;
+  padding: 2%;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -319,8 +322,6 @@ button:hover {
   object-fit: contain;
 }
 
-
-
 /* Media Queries (XXL Devices) */
 @media screen and (min-width: 2048px) {
   .container {
@@ -336,13 +337,10 @@ button:hover {
     width: var(--container-width-xxl);
   }
 
-  .work-container {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
   #contact {
     max-height: 80vh;
-    width: 100%;
+    width: 80%;
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -350,6 +348,7 @@ button:hover {
   }
 
   .contact-container {
+    margin: 2%;
     height: 90%;
     width: 90%;
     display: flex;
@@ -361,6 +360,7 @@ button:hover {
   .contact-info {
     height: 100%;
     width: 50%;
+    padding: 2%;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -378,7 +378,6 @@ button:hover {
   .contact-address {
     margin-top: 0%;
   }
-
 
   .contact-logo {
     display: flex;
@@ -452,7 +451,8 @@ button:hover {
 
   #contact {
     max-height: 80vh;
-    width: 100%;
+    width: 80%;
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -585,6 +585,7 @@ button:hover {
 
   .contact-info > p {
     margin-top: 5%;
+
   }
 
   .contact-address {
