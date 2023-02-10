@@ -363,10 +363,6 @@ button:hover {
     width: var(--container-width-xxl);
   }
 
-  .project > div + div > div + p {
-    font-size: 1.2rem;
-  }
-
   .contact-background {
     width: var(--container-width-xxl);
   }
