@@ -258,15 +258,16 @@ button:hover {
 
 
 #contact {
-  display: flex;
   justify-content: center;
   align-items: center;
   background: var(--color-primary);
 }
 
 .contact-container {
-  padding: 1rem;
-  min-width: 100%;
+  padding: 1rem 0;
+  width: 90%;
+  height: 100%;
+  padding: 2% 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -275,9 +276,8 @@ button:hover {
 
 .contact-info {
   height: 100%;
-  width: 50%;
-  padding: 2%;
-  text-align: center;
+  min-width: 50%;
+  padding: 0 2%;
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -286,7 +286,10 @@ button:hover {
   flex: 1;
 }
 
- .contact-info > p {
+.contact-info>h2 {
+  margin-top: 0;
+}
+ .contact-info>p {
   margin-top: 5%;
 } 
 
@@ -310,18 +313,17 @@ button:hover {
 }
 
 .contact-image {
-  height: auto;
-  width: 50%;
-  padding: 2%;
+  height: 100%;
+  min-width: 50%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-content: center;
   flex: 1;
 }
 
 .contact-image img {
   max-width: 100%;
-  max-height: 100%;
+  max-height: auto;
   object-fit: contain;
 }
 
@@ -388,6 +390,9 @@ button:hover {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .contact-container {
+    width: 95%;
+  }
   .contact-info {
     padding: 2% 0 2% 2%;
   }
@@ -449,12 +454,16 @@ button:hover {
 
   .contact-container {
     flex-direction: column;
+    width: 100%;
   }
 
   .contact-info {
     width: 100%;
+    padding: 2%;
   }
-
+  .contact-info>h2 {
+    text-align: center;
+  }
   .contact-detail {
     font-size: 0.8rem;
   }
