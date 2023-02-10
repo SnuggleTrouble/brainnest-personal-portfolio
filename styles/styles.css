@@ -70,6 +70,10 @@ h1 {
   font-size: 2.5rem;
 }
 
+h2 {
+  font-size: 2.2rem;
+}
+
 h3 {
   font-size: 22px;
 }
@@ -184,6 +188,7 @@ button:hover {
 
 #work>h2 {
   width: 90%;
+  margin-bottom: 2rem;
 }
 
 .work-container {
@@ -252,8 +257,7 @@ button:hover {
 
 #contact {
   max-height: 80vh;
-  width: 80%;
-  margin: auto;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -261,13 +265,12 @@ button:hover {
 }
 
 .contact-container {
-  margin: 2%;
+  margin: 2% 0;
   height: 90%;
   width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .contact-info {
@@ -322,22 +325,11 @@ button:hover {
 
   #contact {
     max-height: 80vh;
-    width: 80%;
-    margin: auto;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     background: var(--color-primary);
-  }
-
-  .contact-container {
-    margin: 2%;
-    height: 90%;
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
   }
 
   .contact-info {
@@ -430,22 +422,11 @@ button:hover {
 
   #contact {
     max-height: 80vh;
-    width: 80%;
-    margin: auto;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     background: var(--color-primary);
-  }
-
-  .contact-container {
-    margin: 2%;
-    height: 90%;
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
   }
 
   .contact-info {
@@ -503,6 +484,8 @@ button:hover {
   }
   .about-content>img {
     width: 100%;
+    margin-left: 0;
+    margin-right: 0;
   }
   .about-content>h1 {
     position: static;
@@ -521,10 +504,13 @@ button:hover {
     justify-content: center ;
   }
 
+  #work>h2 {
+    text-align: center;
+  }
+
   #contact {
     max-height: 80vh;
-    width: 80%;
-    margin: auto;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -539,7 +525,6 @@ button:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
   }
 
   .contact-info {
