@@ -350,7 +350,6 @@ button:hover {
   }
 
   .contact-container {
-    margin: 2%;
     height: 90%;
     width: 90%;
     display: flex;
@@ -362,7 +361,6 @@ button:hover {
   .contact-info {
     height: 100%;
     width: 50%;
-    padding: 2%;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -370,7 +368,7 @@ button:hover {
     color: white;
     justify-content: center;
     flex: 1;
-    font-size: 0.8vw;
+    font-size: calc(7px + 0.3vw);
   }
 
   .contact-info > p {
@@ -460,6 +458,31 @@ button:hover {
     align-items: center;
     background: var(--color-primary);
   }
+
+  .contact-container {
+    margin: 2%;
+    height: 90%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .contact-info {
+    height: 100%;
+    width: 50%;
+    padding: 2%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: white;
+    justify-content: center;
+    flex: 1;
+    font-size: calc(7px + 0.3vw);
+  }
+
   .contact-info > p {
     margin-top: 5%;
   }
@@ -527,7 +550,8 @@ button:hover {
 
   #contact {
     max-height: 80vh;
-    width: 100%;
+    width: 80%;
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -535,12 +559,28 @@ button:hover {
   }
 
   .contact-container {
+    margin: 2%;
     height: 90%;
     width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+  }
+
+  .contact-info {
+    height: 100%;
+    width: 50%;
+    padding: 2%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: white;
+    justify-content: center;
+    flex: 1;
+    font-size: calc(8px + 0.3vw);
   }
 
   .contact-info > p {
