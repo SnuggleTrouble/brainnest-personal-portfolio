@@ -276,7 +276,6 @@ button:hover {
 .contact-info {
   height: 100%;
   width: 50%;
-  padding: 2%;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -330,20 +329,6 @@ button:hover {
     justify-content: center;
     align-items: center;
     background: var(--color-primary);
-  }
-
-  .contact-info {
-    height: 100%;
-    width: 50%;
-    padding: 2%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    color: white;
-    justify-content: center;
-    flex: 1;
-    font-size: 0.8vw;
   }
 
   .contact-info > p {
@@ -429,20 +414,6 @@ button:hover {
     background: var(--color-primary);
   }
 
-  .contact-info {
-    height: 100%;
-    width: 50%;
-    padding: 2%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    color: white;
-    justify-content: center;
-    flex: 1;
-    font-size: 0.8vw;
-  }
-
   .contact-info > p {
     margin-top: 5%;
   }
@@ -518,27 +489,12 @@ button:hover {
   }
 
   .contact-container {
-    margin: 2%;
     height: 90%;
     width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-
-  .contact-info {
-    height: 100%;
-    width: 50%;
-    padding: 2%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    color: white;
-    justify-content: center;
-    flex: 1;
-    font-size: 0.8vw;
   }
 
   .contact-info > p {
