@@ -27,7 +27,7 @@
     --color-bg: #fff;
     --color-bg-variant: #0891b2;
     --color-primary: rgb(8, 145, 178);
-    --color-primary-variant: #189cbd;
+    --color-primary-variant: #6dc7de;
     --color-dark: #000;
     --color-dark-variation: #585858;
 
@@ -294,6 +294,15 @@ button:hover {
   margin-top: 0%;
 }
 
+.contact-logo {
+  display: flex;
+  font-size: calc(7px + 0.6vw);
+}
+
+.contact-logo > a {
+  margin-right: 3%;
+}
+
 .contact-image {
   height: 100%;
   width: 50%;
@@ -331,12 +340,41 @@ button:hover {
     background: var(--color-primary);
   }
 
+  .contact-container {
+    margin: 2%;
+    height: 90%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .contact-info {
+    height: 100%;
+    width: 50%;
+    padding: 2%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: white;
+    justify-content: center;
+    flex: 1;
+    font-size: 0.8vw;
+  }
+
   .contact-info > p {
     margin-top: 5%;
   }
 
   .contact-address {
     margin-top: 0%;
+  }
+
+
+  .contact-logo {
+    display: flex;
   }
 
   .contact-image {
@@ -413,7 +451,6 @@ button:hover {
     align-items: center;
     background: var(--color-primary);
   }
-
   .contact-info > p {
     margin-top: 5%;
   }
@@ -520,5 +557,4 @@ button:hover {
     max-height: 100%;
     object-fit: contain;
   }
-
 }
