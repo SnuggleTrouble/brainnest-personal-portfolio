@@ -75,7 +75,7 @@ h3 {
 }
 span,
 p {
-  font-size: calc(0.7vw + 0.5rem);
+  font-size: calc(0.6vw + 0.5rem);
 }
 section {
   margin-top: 8rem;
@@ -192,6 +192,11 @@ button:hover {
 .project-wrapper {
   padding-top: 125%;
   position: relative;
+  border: 2px solid transparent;
+}
+.project-wrapper:hover {
+  border-color: var(--color-bg-variant);
+  transition: var(--transition);
 }
 .project {
   position: absolute;
@@ -203,9 +208,9 @@ button:hover {
   overflow: hidden;
 }
 .project > div:first-child {
-  height: 60%;
+  height: 55%;
   width: 100%;
-  background-color: red;
+  background-color: brown;
   color: white;
   font-size: 36px;
   text-align: center;
@@ -215,7 +220,7 @@ button:hover {
   width: 100%;
 }
 .project > div + div {
-  height: 40%;
+  height: 45%;
   width: 100%;
   padding: 5% 10%;
 }
@@ -308,6 +313,13 @@ button:hover {
 }
 /* Media Queries (XXL Devices) */
 @media screen and (min-width: 2048px) {
+  h3 {
+    font-size: calc(0.7vw + 0.5rem);
+  }
+  span,
+  p {
+    font-size: calc(0.4vw + 0.5rem);
+  }
   .about-container {
     width: var(--container-width-xxl);
   }
@@ -324,6 +336,13 @@ button:hover {
 }
 /* Media Queries (Medium Devices) */
 @media screen and (max-width: 1024px) {
+  h3 {
+    font-size: calc(1vw + 0.6rem);
+  }
+  span,
+  p {
+    font-size: calc(0.8vw + 0.5rem);
+  }
   .container {
     width: var(--container-width-medium);
   }
@@ -383,6 +402,13 @@ button:hover {
 }
 /* Media Queries (Small Devices) */
 @media screen and (max-width: 600px) {
+  h3 {
+    font-size: calc(1vw + 0.9rem);
+  }
+  span,
+  p {
+    font-size: calc(1vw + 0.6rem);
+  }
   .container {
     width: var(--container-width-small);
   }
