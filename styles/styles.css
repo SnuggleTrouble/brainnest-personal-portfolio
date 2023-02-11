@@ -94,21 +94,6 @@ a:hover {
 .icon-link:hover {
   color: var(--color-primary-variant);
 }
-button {
-  width: max-content;
-  display: inline-block;
-  color: var(--color-primary);
-  padding: 0.75rem 1.2rem;
-  border-radius: 0.4rem;
-  cursor: pointer;
-  border: 1px solid var(--color-primary);
-  transition: var(--transition);
-}
-button:hover {
-  background: var(--color-dark-variation);
-  color: var(--color-bg);
-  border-color: transparent;
-}
 #about {
   overflow: hidden;
   display: flex;
