@@ -220,8 +220,17 @@ button:hover {
   justify-content: space-between;
 }
 
+.project-wrapper {
+  padding-top: 125%;
+  position: relative;
+}
+
 .project {
-  aspect-ratio: 3 / 4;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   box-shadow: 2px 4px 5px 2px rgb(58 58 58 / 30%);
   overflow: hidden;
 }
