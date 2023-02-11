@@ -28,7 +28,8 @@
   --color-dark: #000;
   --color-dark-variation: #585858;
 
-  --transition: all 400ms ease;
+  --transition: all 500ms ease;
+  --transition-secondary: all 1 ease;
 
   --container-width-xxl: 60%;
   --container-width-large: 75%;
@@ -295,6 +296,22 @@ a:hover {
   max-width: 100%;
   max-height: auto;
   object-fit: contain;
+}
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: var(--transition);
+}
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+@media(prefers-reduced-motion) {
+  .hidden {
+    transition: none;
+  }
 }
 /* Media Queries (XXL Devices) */
 @media screen and (min-width: 2048px) {
